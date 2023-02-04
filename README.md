@@ -15,7 +15,7 @@ Using Jupyter notebook, geoViews Python library and the Geoapify API map, visual
 The results were then narrowed down based on temperature and humidity preferences.
 Hotels in each city that met the criteria were found and a new map was created that can be used to find this information. 
 
-## Linear Relationship Findings:
+## Linear Relationship Analysis:
 
 * For the Northern Hemisphere, there is a strong negative correlation, meaning the further away from the equator (zero degrees latitude), the lower the temperature. This is generally expected when considering temperature and proximity to the equator. 
 * For the Southern Hemisphere, the r-squared value of 0.1534371429008172 shows that there doesn't seem to be a correlation between latitude and maximum temperature. This could be due to the current season(spring) having a wider range of temperatures experienced by the given cities. It's also important to note that the Southern Hemisphere filtering only produced 184 data points compared to 389 data points returned for the Northern Hemisphere filter, so if the data sets had similar numbers to compare, we may see a stronger correlation between latitude and maximum temperature in the Southern Hemisphere as well. 
